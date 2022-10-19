@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    
+}
+
+.logo {
+    width: 50px;
+    margin: 20px;
+    
+}
+
+.div-head1 {
+    display: flex;
+    align-items: center;
+}
+
+.user-name{
+    margin-right: 30px;
+}
+
+.user-photo {
+    width: 55px;
+    margin-right: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+}
+
+.div-head2 {
+    display: flex;
+    align-items: center;
+    flex-direction:row;
+}
+
+.section {
+    width: 20%;
+    background-color: aquamarine;
+}
